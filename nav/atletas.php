@@ -1,9 +1,9 @@
-﻿<div id="page_content">
+<div id="page_content">
 
 
 
 	<div id="page">
-     <h1>MPBJJ</h1>
+     <h1>Atletas</h1>
       <h2>Bem vindo ao Centro de Lutas Marcio Pontes Brazilian Jiu Jitsu.</h2><br/>
       <h3>JIU-JITSU ADULTO</h3>
       <h4>Segunda, Quarta e Sexta(7h as 8h)</h4>

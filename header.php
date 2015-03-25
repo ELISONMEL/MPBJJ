@@ -2,25 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<?php
-include"Connections/config.php";
-
-@$conexao = mysql_connect("$hostname_config","$username_config","$password_config")
-		  or die(mysql_error());
-$db = mysql_select_db("$database_config")
-      or die(mysql_error());
-?>
-
-<?php include"scripts/limita_palavras.php";?>
-
 
 <?php
 @$pgatual = strtolower(end(explode('/', $_GET['topicos'])));
 ?>
 
-<?php
-include"scripts.php";
-?>
+<?php include"scripts.php";?>
 <title>MPBJJ | <?php echo $pgatual;?></title>
 <link href="style.css" rel="stylesheet" type="text/css" />
 <link href="scripts/shadowbox/shadowbox.css" rel="stylesheet" type="text/css" />
@@ -52,10 +39,10 @@ include"scripts.php";
     
      <ul>
       <li><a href="index.php?topicos=nav/home">academia</a></li>
-      <li><a href="index.php?topicos=nav/page&amp;pagina=mpbjj">mpbjj</a></li>
-      <li><a href="index.php?topicos=nav/page&amp;pagina=eventos">eventos</a></li>
-      <li><a href="index.php?topicos=nav/page&amp;pagina=atletas">atletas</a></li>
-      <li><a href="index.php?topicos=nav/page&amp;pagina=produtos">produtos</a></li>
+      <li><a href="index.php?topicos=nav/mpbjj">mpbjj</a></li>
+      <li><a href="index.php?topicos=nav/eventos">eventos</a></li>
+      <li><a href="index.php?topicos=nav/atletas">atletas</a></li>
+      <li><a href="index.php?topicos=nav/produtos">produtos</a></li>
       <li><a href="index.php?topicos=nav/contato">fale conosco</a></li>
      </ul>
          <div id="menu_search">

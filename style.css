@@ -6,28 +6,6 @@
 body{
 	background:#ccc;
 }
-.alinleft{
-	float:left;
-	margin-right:8px;
-	padding:2px;
-	border:1px solid #333;
-	background:#f4f4f4;
-}
-.alinright{
-	float:right;
-	margin-left:8px;
-	padding:2px;
-	border:1px solid #333;
-	background:#f4f4f4;
-}
-.info{
-	margin:0 0 10px;
-	padding:0;
-	float:left;
-	width:650px;
-	font:12px Georgia, "Times New Roman", Times, serif;
-	color:#999;
-}
 /*BOX*/
 #box{
 	width:900px; 
@@ -61,7 +39,6 @@ body{
 #menu{
 	height:35px;
 	background:url(images/bg_menu.jpg)center no-repeat;
-	
 }
 #menu ul{
 	margin:0;
@@ -75,7 +52,7 @@ body{
 #menu ul li a{
 	text-decoration:none;
 	color:#FFF;
-	font:18px Arial, Helvetica, sans-serif;
+	font:20px Arial, Helvetica, sans-serif;
 	float:left;
 	padding:5px 8px 6px;
 	text-shadow:1px 1px 5px #333;
@@ -120,7 +97,7 @@ body{
 	width:500px;
 	float:left;
 	background:#EBEBEB;
-	margin:10px;
+	margin:5px;
 	padding:5px;
 	overflow:hidden;
 }
@@ -140,12 +117,10 @@ body{
 	width:500px;
 	height:370px;
 
-	
 }
 #noticias_destaque p{
-	font:14px Verdana, Geneva, sans-serif;
-	margin:5px 5px 5px 0;
-	padding:5px;
+	font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin:0 0 20px 0;
 }
 #noticias_destaque a{
 	color:#333;
@@ -157,9 +132,9 @@ body{
 }
 
 #noticias_lista{
-	width:400px;
+	width:375px;
 	float:right;
-	padding:0px 5px 5px 0;
+	padding:5px 5px 5px 0;
 }
 #noticias_lista a{
 	text-decoration:none;
@@ -167,7 +142,7 @@ body{
 }
 #noticias_lista ul{
 	margin:0;
-	padding:5px;
+	padding:0;
 	float:left;
 	list-style:none;
 }
@@ -201,7 +176,7 @@ body{
 	border:0;
 }
 #noticias_lista h1{
-	font:12px Verdana, Geneva, sans-serif;
+	font:12px Georgia, "Times New Roman", Times, serif;
 	color:#00C;
 	font-weight:bold;
 	text-shadow:1px 1px 1px #999;
@@ -249,20 +224,10 @@ body{
 	text-decoration:none;
 	color:#333;
 }
-
 #produtos_shopping{
-	width:200px;
-	height:300px;
-	margin:10px;
-	padding:5px;
-	background:url(images/nu.jpg) no-repeat;
-	float:right;
-	margin:5px;
-}
-/*#produtos_shopping{
 	width:265px;
 	padding:5px;
-	background:#00C;
+	background:#333;
 	float:right;
 	margin-right:5px;
 }
@@ -303,12 +268,20 @@ body{
 	font-weight:bold;
 	color:#F00;
 }
+.botao_produtos{
+	width:215px;
+	height:57px;
+	background:url(images/menu_livros.jpg) top no-repeat;
+	float:left;
+	display:block;
+	margin:17px 25px;
+}
 /*EM INDEX BLOCO 3*/
 #alunos{
 	width:900px;
 }
 #alunos_page{
-	width:890px;
+	width:600px;
 	float:left;
 	margin:5px;
 	padding:5px;
@@ -325,14 +298,14 @@ body{
 	margin:20px 0;
 
 }
-/*#alunos_ilustra{
+#alunos_ilustra{
 	width:200px;
 	height:300px;
 	padding:5px;
 	background:url(images/nu.jpg) no-repeat;
 	float:right;
 	margin:5px;
-}*/
+}
 /*RODAPÈ*/
 #clear{
 	clear:both;
@@ -443,8 +416,7 @@ body{
 }
 #page a{
 	width:200px;
-	text-align:left;
-
+	float:left;
 }
 #page p{
 	margin:10px;
